@@ -29,7 +29,7 @@ int main()
   int res = 0;
   for (int x = 0; x < size; x++)
   { 
-    res+= value (names [x]);
+    res+= value (names [x]) * (x+1);
   }
   cout << res << endl; 
   file.close ();
